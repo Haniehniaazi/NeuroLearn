@@ -2,7 +2,7 @@
 
 ## Vision
 
-NeuroLearn is an AI powered learning platform that transforms topics into interactive learning experience.
+NeuroLearn is an AI powered learning platform that transforms any topic into interactive learning experiences.
 
 ## Current version
 
