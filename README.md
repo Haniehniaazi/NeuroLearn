@@ -1,45 +1,52 @@
 # NeuroLearn
 
-AI-powered learning platform that transforms any topic into interactive learning experiences.
+AI-powered learning platform that transforms topics into interactive learning experiences.
 
-## Features
+## Vision
 
-- AI-generated crosswords
-- Quiz generation
-- Flashcards
-- Learning summaries
-- Progress tracking
+Create engaging learning experiences using AI, such as crosswords, quizzes, and flashcards.
 
-## Current Status
+## Status
 
 🚧 Under Development
 
 Current milestone:
-Crossword Generator
+**v0.1 - AI Crossword Generator**
 
 ## Tech Stack
 
-Backend
-- Python
-- FastAPI
+**Backend**
+- C#
+- ASP.NET Core Web API
 
-AI
-- OpenAI API
+**Frontend**
+- React + TypeScript
 
-Frontend
-- React
+**Database**
+- SQLite (Development)
+- PostgreSQL (Production)
 
-Database
-- PostgreSQL
+**AI**
+- OpenAI API (Planned)
 
 ## Roadmap
 
-v0.1 Crossword
+### v0.1
+- Project setup
+- Backend foundation
+- Crossword generation
 
-v0.2 AI Themes
+### v0.2
+- AI-generated words and clues
 
-v0.3 Quiz
+### v0.3
+- Interactive frontend
 
-v0.4 Flashcards
+### Future
+- Quizzes
+- Flashcards
+- Personalized learning
 
-v1.0 Learning Platform
+## Development
+
+This project is actively being developed as a portfolio project focusing on backend engineering, AI integration, and modern software architecture.
