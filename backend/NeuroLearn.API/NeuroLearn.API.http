@@ -1,0 +1,6 @@
+@NeuroLearn.API_HostAddress = http://localhost:5032
+
+GET {{NeuroLearn.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
