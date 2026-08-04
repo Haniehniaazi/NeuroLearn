@@ -1,4 +1,4 @@
-namespace NeuroLean.API.Enums;
+namespace NeuroLearn.API.Enums;
 
 public enum Difficulty {
     Easy,

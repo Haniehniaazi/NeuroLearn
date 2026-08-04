@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace NeuroLean.API.Controllers;
+namespace NeuroLearn.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
