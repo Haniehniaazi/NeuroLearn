@@ -3,7 +3,7 @@ using NeuroLearn.API.Contracts.Requests;
 using NeuroLearn.API.Models;
 using NeuroLearn.API.Enums;
 
-
+namespace NeuroLearn.API.Services;
 public class CrosswordService : ICrosswordService
 {
     public CrosswordPuzzle CreatePuzzle (CreatePuzzleRequest request)
