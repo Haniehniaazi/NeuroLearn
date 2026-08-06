@@ -10,4 +10,5 @@ public class CrosswordPuzzle
     public PuzzleStatus Status { get; set; } = PuzzleStatus.Generating;
     public Difficulty Difficulty { get; set; }
     public string LanguageCode { get; set; } = "en";
+    public List<CrosswordEntry> Entries {get; set;} = [];
 }
