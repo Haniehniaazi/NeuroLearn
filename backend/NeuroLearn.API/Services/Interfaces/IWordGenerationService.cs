@@ -5,5 +5,5 @@ namespace NeuroLearn.API.Services.Interfaces;
 
 public interface IWordGenerationService
 {
-    List<CrosswordEntry> GenerateEntries(CreatePuzzleRequest request);
+    List<GeneratedWord> GenerateWords(CreatePuzzleRequest request);
 }

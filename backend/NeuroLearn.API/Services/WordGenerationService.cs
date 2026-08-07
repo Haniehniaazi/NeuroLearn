@@ -7,24 +7,18 @@ namespace NeuroLearn.API.Services;
 
 public class WordGenerationService: IWordGenerationService
 {
-    public List<CrosswordEntry> GenerateEntries(CreatePuzzleRequest request)
+    public List<GeneratedWord> GenerateWords(CreatePuzzleRequest request)
     {
         return [
-            new CrosswordEntry
+            new GeneratedWord
             {
                 Answer = "ROUTER",
                 Clue = "Verbindet unterschiedliche Netzwerke",
-                StartRow = 2,
-                StartColumn = 1,
-                Direction = WordDirection.Horizontal
             },
-            new CrosswordEntry
+            new GeneratedWord
             {
                 Answer = "SERVER",
                 Clue = "Stellt anderen Geräten Dienste bereit",
-                StartRow = 0,
-                StartColumn = 1,
-                Direction = WordDirection.Vertical      
             }
         ];
     }

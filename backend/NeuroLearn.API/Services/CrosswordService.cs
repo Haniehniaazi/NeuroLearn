@@ -14,8 +14,8 @@ public class CrosswordService : ICrosswordService
     }
     public CrosswordPuzzle CreatePuzzle (CreatePuzzleRequest request)
     {
-        List<CrosswordEntry> entries =
-            _wordGenerationService.GenerateEntries(request);
+        List<GeneratedWord> entries =
+            _wordGenerationService.GenerateWords(request);
         return new CrosswordPuzzle
         {
             Topic = request.Topic,
@@ -25,7 +25,6 @@ public class CrosswordService : ICrosswordService
             Status = PuzzleStatus.Ready,
             CreatedAt = DateTime.UtcNow,
             Entries = entries
-
         };
     }
 }
