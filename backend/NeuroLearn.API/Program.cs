@@ -12,6 +12,8 @@ builder.Services.AddSwaggerGen();
 
 // Register application services
 builder.Services.AddScoped<ICrosswordService, CrosswordService>();
+builder.Services.AddScoped<IWordGenerationService, WordGenerationService>();
+builder.Services.AddScoped<ICrosswordService, CrosswordService>();
 
 // Build object 
 var app = builder.Build();
